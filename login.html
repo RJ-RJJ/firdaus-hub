@@ -93,7 +93,7 @@
                 const sessionUser = { username: user.username };
                 localStorage.setItem('user', JSON.stringify(sessionUser));
                 // Redirect to admin page
-                window.location.href = '/firdaus-hub/login.html';
+                window.location.href = '/admin.html';
             } else {
                 messageDiv.innerHTML = `<div class="alert alert-danger">Username atau password salah.</div>`;
             }
