@@ -1,0 +1,16 @@
+{
+  "name": "company-profile-website",
+  "version": "1.0.0",
+  "description": "A company profile website for the JWD 2025 certification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
